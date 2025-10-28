@@ -7,9 +7,10 @@ const Registration = () => {
       <form action="#">
         <div className="form-group">
           <h2>Fill out the form bellow</h2>
-        <label for="name">PAtient Name</label>
+        <label for="name">Patient First Name</label>
         <input type="text" placeholder='enter Patient name' id='name' />
-        <input type="text" placeholder='enter last name' id='name' />
+        <label for="lastName">Patient LastName</label>
+        <input type="text" placeholder='enter last name' id='lastName' />
         <label for="age">Age</label>
         <input type="number" placeholder='enter patients age' id='age'/>
         <label for="alergy">Alargies</label>
