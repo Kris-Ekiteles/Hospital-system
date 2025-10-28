@@ -1,0 +1,38 @@
+form{
+    background-color: red;
+    height: fit-content;
+    width: 500px;
+    border-radius: 20px;
+    transform: translateX(50%);
+    transform: translateY(50%);
+    margin: auto;
+    padding: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+form input{
+    height: 30px;
+    width: 200px;
+    margin: 5px; 
+    outline: none; 
+}
+.form-group button{
+    height: 35px;
+    width: 100px;
+    margin-top: 15px;
+    background-color: rgb(128, 21, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
